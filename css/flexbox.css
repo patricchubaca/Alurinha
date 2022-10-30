@@ -23,3 +23,7 @@
 .rodapePrincipal-contatoForm {
   width: 25%;
 }
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
