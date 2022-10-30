@@ -1,16 +1,17 @@
 body {
 	background-color: #F2F5F7;
-	font-family: 'Open Sans',Arial,sans-serif;
+	font-family: 'Open Sans', Arial, sans-serif;
 }
 
 .container {
 	width: 94%;
 	margin: 0 auto;
+
 }
 
 .cabecalhoPrincipal {
 	background-color: #FFF;
-	padding: 20px 0;
+	padding: 30px 0;
 }
 
 .cabecalhoPrincipal-titulo {
@@ -83,7 +84,7 @@ body {
 }
 
 .conteudoPrincipal-cursos-link:nth-child(even) a:before {
-	background: url(../img/background1.svg) no-repeat;	
+	background: url(../img/background1.svg) no-repeat;
 }
 
 .conteudoPrincipal-cursos-link:nth-child(odd) a:before {
@@ -119,14 +120,29 @@ body {
 	padding-bottom: .2em;
 }
 
-.navmap-list-title + .rodapePrincipal-navMap-link {
+.navmap-list-title+.rodapePrincipal-navMap-link {
 	margin-top: 0;
 }
 
-.navmap-list-title-bancoDeDados { color: #EC6E5A; border-left: 4px solid #EC6E5A; }
-.navmap-list-title-framework { color: #AD85BF; border-left: 4px solid #AD85BF; }
-.navmap-list-title-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
-.navmap-list-title-backend { color: #25D285; border-left: 4px solid #25D285; }
+.navmap-list-title-bancoDeDados {
+	color: #EC6E5A;
+	border-left: 4px solid #EC6E5A;
+}
+
+.navmap-list-title-framework {
+	color: #AD85BF;
+	border-left: 4px solid #AD85BF;
+}
+
+.navmap-list-title-frontend {
+	color: #5EC6F3;
+	border-left: 4px solid #5EC6F3;
+}
+
+.navmap-list-title-backend {
+	color: #25D285;
+	border-left: 4px solid #25D285;
+}
 
 .rodapePrincipal-patrocinadores {
 	margin-top: 30px;
@@ -159,7 +175,7 @@ body {
 	background-color: #4DBA7A;
 	color: #FFF;
 	cursor: pointer;
-	
+
 }
 
 .rodapePrincipal-contatoForm-submit,
@@ -212,7 +228,7 @@ body {
 @media(min-width: 769px) {
 
 	.container {
-		width: 85%;	
+		width: 85%;
 	}
 
 	.subtitulo {
@@ -283,5 +299,3 @@ body {
 	}
 
 }
-
-
