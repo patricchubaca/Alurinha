@@ -27,3 +27,9 @@
 .rodapePrincipal-contatoForm-fieldset {
   display: flex;
 }
+
+.rodapePrincipal-navMap-list {
+  display: flex;
+  flex-flow: column wrap;
+  height: 250px;
+}
