@@ -40,5 +40,55 @@
 }
 
 .conteudoPrincipal-cursos-link {
-  width: 20%;
+  width: 23%;
+  margin-bottom: 1%;
+  height: 150px;
+}
+
+
+@media(max-width:767px) {
+  .cabecalhoPrincipal-nav {
+    flex-direction: column;
+  }
+
+  .cabecalhoPrincipal .container {
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+  }
+
+  .cabecalhoPrincipal-nav {
+    text-align: center;
+  }
+
+  .conteudoPrincipal-cursos .conteudoPrincipal-cursos-link a {
+    margin-top: 18px;
+  }
+
+  .conteudoPrincipal-cursos-link {
+    width: 100%;
+  }
+
+  .rodapePrincipal-navMap-list {
+    height: auto;
+  }
+
+  .rodapePrincipal-patrocinadores .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rodapePrincipal-contatoForm {
+    width: 100%;
+  }
+
+  .rodapePrincipal-patrocinadores-list {
+    margin: 0;
+    width: 100%;
+  }
+
+  .rodapePrincipal-contatoForm-fieldset {
+    justify-content: center;
+  }
+
 }
