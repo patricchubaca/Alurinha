@@ -53,7 +53,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  flex-grow: 3;
 }
 
 .videoSobre-sobre-list {
@@ -62,6 +62,7 @@
 
 .videoSobre-video {
   flex-grow: 1;
+  flex-shrink: 2;
 }
 
 
@@ -110,4 +111,11 @@
     justify-content: center;
   }
 
+  .videoSobre .container {
+    flex-direction: column;
+  }
+
+  .videoSobre-video {
+    margin: 0 auto;
+  }
 }
